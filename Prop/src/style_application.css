@@ -192,6 +192,11 @@ footer div {
         margin: 0 auto;
     }
 
+    #terms:hover,
+    #terms:focus{
+        background-color: #6666ff;
+    }
+
     button {
         font-size: 1rem;
         width: 90px;

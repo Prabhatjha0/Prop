@@ -37,6 +37,11 @@ nav {
     margin-left: 1px;
 }
 
+#nav_elements span a:hover,
+#nav_elements span a:focus {
+    color: blue;
+}
+
 #prop_logo {
     display: none;
 
@@ -57,7 +62,7 @@ nav {
     width: 100%;
 }
 
-h1{
+h1 {
     text-align: center;
 }
 
@@ -120,7 +125,7 @@ h4 {
 #jobs_list ul span {
     padding: 2px;
     color: white;
-    background-color: #ff2056;
+    background-color: #ff1122;
     font-size: 1rem;
     text-decoration: none;
 }
@@ -156,7 +161,7 @@ h4 {
 }
 
 .apply:hover,
-.apply:focus{
+.apply:focus {
     color: #861043;
 }
 
@@ -187,6 +192,12 @@ footer div {
     padding: 0 5px;
 }
 
+footer a:hover,
+footer a:focus {
+    font-size: 1rem;
+    color: red;
+}
+
 
 /* tablets or medium screens (i.e. > 576px and < 992px ) */
 @media screen and (min-width: 576px) {
@@ -194,18 +205,13 @@ footer div {
         font-size: 16px;
     }
 
-    nav{
+    nav {
         height: 37px;
     }
 
     #nav_elements span {
         padding: 10px 15px;
         margin-left: 2px;
-    }
-
-    #nav_elements span a:hover,
-    #nav_elements span a:focus {
-        color: blue;
     }
 
     #prop_icon {
@@ -241,12 +247,6 @@ footer div {
 
     #banner {
         height: 200px;
-    }
-
-    footer a:hover,
-    footer a:focus {
-        font-size: 1rem;
-        color: red;
     }
 
 
@@ -348,12 +348,12 @@ footer div {
         background-color: #f1f5f9;
     }
 
-    #apply_in_table{
+    #apply_in_table {
         color: blue;
     }
 
     #apply_in_table:hover,
-    #apply_in_table:focus{
+    #apply_in_table:focus {
         color: #861043;
     }
 

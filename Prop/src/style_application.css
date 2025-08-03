@@ -37,6 +37,11 @@ nav {
     margin-left: 1px;
 }
 
+#nav_elements span a:hover,
+#nav_elements span a:focus {
+    color: blue;
+}
+
 #prop_logo {
     display: none;
 
@@ -112,6 +117,13 @@ button {
     height: 25px;
 }
 
+button:hover,
+button:focus {
+    color: white;
+    font-weight: 600;
+    background-color: #55dd77;
+}
+
 footer {
     width: 100%;
     color: white;
@@ -131,6 +143,12 @@ footer div {
     padding: 0 5px;
 }
 
+footer a:hover,
+footer a:focus {
+    font-size: 1rem;
+    color: red;
+}
+
 
 
 /* tablets or medium screens (i.e. > 576px and < 992px ) */
@@ -146,11 +164,6 @@ footer div {
     #nav_elements span {
         padding: 10px 15px;
         margin-left: 2px;
-    }
-
-    #nav_elements span a:hover,
-    #nav_elements span a:focus {
-        color: blue;
     }
 
     #prop_icon {
@@ -196,20 +209,6 @@ footer div {
         font-size: 1rem;
         width: 90px;
         height: 30px;
-    }
-
-    button:hover,
-    button:focus {
-        color: white;
-        font-weight: 600;
-        background-color: #55dd77;
-    }
-
-
-    footer a:hover,
-    footer a:focus {
-        font-size: 1rem;
-        color: red;
     }
 
 
